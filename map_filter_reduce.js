@@ -5,7 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5];
 const output = arr.map((x) => x * 2);
-console.log(output); //[ 2, 4, 6, 8, 10 ]  Newly created array with transformed values
+console.log(output); //[ 2, 4, 6, 8, 10 ]  Newly created array with transforarr.map((x) => x * 2);
 console.log(arr); //[ 1, 2, 3, 4, 5 ] Orginal Array without impact
 
 //filter function - used to filter the values inside the array
